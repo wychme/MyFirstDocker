@@ -14,9 +14,3 @@ deploy:
   region: "us-east-1"
   app: "MyFirstDocker"
   env: "Myfirstdocker-env"
-  bucket_name: "elasticbeanstalk-us-east-1-917284451557"
-  bucket_path: "MyFirstDocker"
-  on:
-    branch: master
-  access_key_id: $access_key_id
-  secret_access_key: $secret_access_key
